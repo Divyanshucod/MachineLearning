@@ -1,0 +1,9 @@
+Explanation -> this is use to solve both classification and regression related problems so in  classification problem we use a SVC(support
+vector classifier) and in regression problem we use a SVR(support vector regressor)
+
+SVC -> in this we create a best fit line, thats a normal line that we used to create in both logistic and linear but  in this SVC we create
+a two extra lines called marginal line and in such a way so that distance between marginal plans or line should be maximum.
+and the nearest point whose which the marginal plan/line are passiong know as support vectors.
+
+Soft Margin -> means we did the seperation but there is still a overlapping(not fully seperated)
+Hard Margin -> inverse of soft margin
