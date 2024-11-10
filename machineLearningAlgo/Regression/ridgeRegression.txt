@@ -1,0 +1,29 @@
+ridge Regression -> when every we face a overfitting state -> means for train data the accuracy is high that is known as "low bias" and for test data accuracy is less
+and that is know as high variance and means the best fit line is not fit that why error is high in test case so in the overfitting
+case we use ridge regression to fit best fit line. it is also known as L2 regularization ( for reducing overfitting)
+
+lasso Regression -> (l1 regularization) use for features selection in such a way that if any features is not important then that will be deleted
+and the most important features will be there. the difference between ridge and lasso is in the ridge the whole value never become 0 after incre-
+asing Lemda but in lasso it will be. and in both the regression there is a relationship which is the @ is inversily propotional to Lemda.
+
+ElasticNet Regression -> it is a combination of both, ridge and lasso regression.
+
+cross validation -> use to split training data to further "Train" and "validation" and to perform this we require cross validation.
+we are doing this split because of Random_state that we use in the training time.
+
+Types of cross validation:
+1. leave one out CV -> basically for every experiment we keep taking one part of data for validation and other part for trainning. so the problem is
+if size of training data is high then it will be more complex to train model with this. and it will also lead to overfitting.
+
+2. leave P out CV -> in this every thing is same as previous one but the only thing that is change which is P so now you are not bounded to take only
+one part of data for validation, you can take P no of parts.
+
+3. K-fold cross validation -> here we take some value in K and we divide the training data with K so it will be N/k and what ever the value we will
+get that will be the size of validation that we cann take. ex -> N =500 and k = 5 so test_size = 100 so it will require 5 experiment to cover all the
+training data.
+
+4. stratified K-fold validation -> it will make sure even ration distribution in output. so means if we have binary classification problem 
+and we do k-fold to get 100 data then the distribution might be 60:40 so here you can see we have 60 1's and 40 0's. and it is almost equal.
+
+5. time series cross validation -> Ex -> where to use = product comments sentiment analysis/reviews analysis   in this validation happens based on
+some time like days. and we divide data set in days like first 4 days for train and remain 6 days for validation.

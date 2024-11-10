@@ -1,0 +1,8 @@
+It is use to solve binary classification problems : if we have output that have only two categories like Ex-> pass/fail
+true/false then it is called a binary classification problem.
+can we solve these kind of problems using linear regression? so yes. but we have some problem the problem is if we add outliers
+the whole best fit line will be change and then for same input it will give wrong output.
+
+Why not use linear regression for binary classification
+1. best fit line chnage because of outliers
+2. >1 and < 0 value that can only be handle by {squashing}
