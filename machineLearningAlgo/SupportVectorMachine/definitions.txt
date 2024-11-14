@@ -7,3 +7,9 @@ and the nearest point whose which the marginal plan/line are passiong know as su
 
 Soft Margin -> means we did the seperation but there is still a overlapping(not fully seperated)
 Hard Margin -> inverse of soft margin
+
+SVM kernels = let say we have a binary classification, and we have to create a best line. but at any moment the data points are scattered in 
+the way that if we go for liner SVC, it will divide the data in 50 50% and we will be having 25 25% pecentage of both overlaped values and then we 
+use SVM kernels to solve these kind of problems. look the Photo clicked for better understanding
+
+Types of kernels -> 1: polynomial kernel, 2: RBF kernel, 3:sigmoid
