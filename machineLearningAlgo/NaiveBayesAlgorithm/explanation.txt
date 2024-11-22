@@ -1,0 +1,2 @@
+Naive Bayes algo use to solve both type of classification problem
+multi classification and binary classification
